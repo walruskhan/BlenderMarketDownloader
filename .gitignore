@@ -1,2 +1,4 @@
 cookies.txt
 venv/
+logs.txt
+__pycache__

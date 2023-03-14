@@ -16,8 +16,6 @@ def rename(input: str):
     if input in NAME_MAP.keys():
         return NAME_MAP[input]
 
-
-
     folder_name = re.sub(r'[|.,+!@&*:;=&^%$#]+', '', input)
     folder_name = re.sub(r'[\s\-]+', ' ', folder_name)
     folder_name = re.sub(r'^[\s\-]+', '', folder_name)
